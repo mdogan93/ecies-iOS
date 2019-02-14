@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4291659DD45EAFF2CCBEA44F /* Pods_ec_encryption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF2CEC4C435825449430232 /* Pods_ec_encryption.framework */; };
+		FBC8DBA822155F1A003F4A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DBA722155F1A003F4A8A /* AppDelegate.swift */; };
+		FBC8DBAA22155F1A003F4A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DBA922155F1A003F4A8A /* ViewController.swift */; };
+		FBC8DBAD22155F1A003F4A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DBAB22155F1A003F4A8A /* Main.storyboard */; };
+		FBC8DBAF22155F1D003F4A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DBAE22155F1D003F4A8A /* Assets.xcassets */; };
+		FBC8DBB222155F1D003F4A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DBB022155F1D003F4A8A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF2CEC4C435825449430232 /* Pods_ec_encryption.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ec_encryption.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A9CEBC5973134E808654D9 /* Pods-ec-encryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ec-encryption.release.xcconfig"; path = "Target Support Files/Pods-ec-encryption/Pods-ec-encryption.release.xcconfig"; sourceTree = "<group>"; };
+		BF2602F2DD8708B01199E7B4 /* Pods-ec-encryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ec-encryption.debug.xcconfig"; path = "Target Support Files/Pods-ec-encryption/Pods-ec-encryption.debug.xcconfig"; sourceTree = "<group>"; };
+		FBC8DBA422155F1A003F4A8A /* ec-encryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ec-encryption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC8DBA722155F1A003F4A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC8DBA922155F1A003F4A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC8DBAC22155F1A003F4A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC8DBAE22155F1D003F4A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC8DBB122155F1D003F4A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC8DBB322155F1D003F4A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC8DBA122155F1A003F4A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4291659DD45EAFF2CCBEA44F /* Pods_ec_encryption.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FA97AE3B6174FEC099E3ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF2602F2DD8708B01199E7B4 /* Pods-ec-encryption.debug.xcconfig */,
+				27A9CEBC5973134E808654D9 /* Pods-ec-encryption.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDC6D1CB8C7B145DA4A5AB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF2CEC4C435825449430232 /* Pods_ec_encryption.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC8DB9B22155F1A003F4A8A = {
+			isa = PBXGroup;
+			children = (
+				FBC8DBA622155F1A003F4A8A /* ec-encryption */,
+				FBC8DBA522155F1A003F4A8A /* Products */,
+				30FA97AE3B6174FEC099E3ED /* Pods */,
+				EDC6D1CB8C7B145DA4A5AB25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC8DBA522155F1A003F4A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC8DBA422155F1A003F4A8A /* ec-encryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC8DBA622155F1A003F4A8A /* ec-encryption */ = {
+			isa = PBXGroup;
+			children = (
+				FBC8DBA722155F1A003F4A8A /* AppDelegate.swift */,
+				FBC8DBA922155F1A003F4A8A /* ViewController.swift */,
+				FBC8DBAB22155F1A003F4A8A /* Main.storyboard */,
+				FBC8DBAE22155F1D003F4A8A /* Assets.xcassets */,
+				FBC8DBB022155F1D003F4A8A /* LaunchScreen.storyboard */,
+				FBC8DBB322155F1D003F4A8A /* Info.plist */,
+			);
+			path = "ec-encryption";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC8DBA322155F1A003F4A8A /* ec-encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC8DBB622155F1D003F4A8A /* Build configuration list for PBXNativeTarget "ec-encryption" */;
+			buildPhases = (
+				968C4E7049B565E817C3F9D5 /* [CP] Check Pods Manifest.lock */,
+				FBC8DBA022155F1A003F4A8A /* Sources */,
+				FBC8DBA122155F1A003F4A8A /* Frameworks */,
+				FBC8DBA222155F1A003F4A8A /* Resources */,
+				1B5D619DE1C1F2EA33CABDD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ec-encryption";
+			productName = "ec-encryption";
+			productReference = FBC8DBA422155F1A003F4A8A /* ec-encryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC8DB9C22155F1A003F4A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mehmet Doğan";
+				TargetAttributes = {
+					FBC8DBA322155F1A003F4A8A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FBC8DB9F22155F1A003F4A8A /* Build configuration list for PBXProject "ec-encryption" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC8DB9B22155F1A003F4A8A;
+			productRefGroup = FBC8DBA522155F1A003F4A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC8DBA322155F1A003F4A8A /* ec-encryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC8DBA222155F1A003F4A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC8DBB222155F1D003F4A8A /* LaunchScreen.storyboard in Resources */,
+				FBC8DBAF22155F1D003F4A8A /* Assets.xcassets in Resources */,
+				FBC8DBAD22155F1A003F4A8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5D619DE1C1F2EA33CABDD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ec-encryption/Pods-ec-encryption-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Blockstack/Blockstack.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Blockstack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ec-encryption/Pods-ec-encryption-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968C4E7049B565E817C3F9D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ec-encryption-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC8DBA022155F1A003F4A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC8DBAA22155F1A003F4A8A /* ViewController.swift in Sources */,
+				FBC8DBA822155F1A003F4A8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBC8DBAB22155F1A003F4A8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC8DBAC22155F1A003F4A8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC8DBB022155F1D003F4A8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC8DBB122155F1D003F4A8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC8DBB422155F1D003F4A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC8DBB522155F1D003F4A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC8DBB722155F1D003F4A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2602F2DD8708B01199E7B4 /* Pods-ec-encryption.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHRX89F42;
+				INFOPLIST_FILE = "ec-encryption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmeek.ec-encryption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC8DBB822155F1D003F4A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A9CEBC5973134E808654D9 /* Pods-ec-encryption.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHRX89F42;
+				INFOPLIST_FILE = "ec-encryption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmeek.ec-encryption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC8DB9F22155F1A003F4A8A /* Build configuration list for PBXProject "ec-encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC8DBB422155F1D003F4A8A /* Debug */,
+				FBC8DBB522155F1D003F4A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC8DBB622155F1D003F4A8A /* Build configuration list for PBXNativeTarget "ec-encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC8DBB722155F1D003F4A8A /* Debug */,
+				FBC8DBB822155F1D003F4A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC8DB9C22155F1A003F4A8A /* Project object */;
+}

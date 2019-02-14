@@ -1,0 +1,20 @@
+PODS:
+  - Blockstack (0.4.1):
+    - CryptoSwift
+  - CryptoSwift (0.14.0)
+
+DEPENDENCIES:
+  - Blockstack
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Blockstack
+    - CryptoSwift
+
+SPEC CHECKSUMS:
+  Blockstack: 87b79707d2a8ac2bc75d16364c6d60a5917d0ddf
+  CryptoSwift: 35a10419f4dbf0619c13f8c1c180037e115323fa
+
+PODFILE CHECKSUM: 957df142c9977d1720c6512d9c296ecf3efc0bb2
+
+COCOAPODS: 1.6.0

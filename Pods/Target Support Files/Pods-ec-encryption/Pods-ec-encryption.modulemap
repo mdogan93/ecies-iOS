@@ -1,0 +1,6 @@
+framework module Pods_ec_encryption {
+  umbrella header "Pods-ec-encryption-umbrella.h"
+
+  export *
+  module * { export * }
+}
